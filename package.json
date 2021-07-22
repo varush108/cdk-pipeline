@@ -1,8 +1,8 @@
 {
-  "name": "cdk pipeline",
+  "name": "cdkpipeline",
   "version": "0.1.0",
   "bin": {
-    "cdk pipeline": "bin/cdk pipeline.js"
+    "cdk pipeline": "bin/cdkpipeline.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,11 +21,11 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigateway": "^1.115.0",
-    "@aws-cdk/aws-lambda": "^1.115.0",
-    "@aws-cdk/aws-s3": "^1.115.0",
-    "@aws-cdk/core": "^1.115.0",
-    "@aws-cdk/pipelines": "^1.115.0",
+    "@aws-cdk/aws-apigateway": "^1.114.0",
+    "@aws-cdk/aws-lambda": "^1.114.0",
+    "@aws-cdk/aws-s3": "^1.114.0",
+    "@aws-cdk/core": "^1.114.0",
+    "@aws-cdk/pipelines": "^1.114.0",
     "@types/aws-lambda": "^8.10.80",
     "source-map-support": "^0.5.16"
   }
